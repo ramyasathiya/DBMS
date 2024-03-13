@@ -24,6 +24,7 @@
 
 ### SQL DDL Schema 
 
+```
 CREATE TABLE Student
 (
   Student_id INT NOT NULL,
@@ -65,6 +66,7 @@ CREATE TABLE Enrollment
   CourseID INT NOT NULL,
   Enrollment_Date INT NOT NULL
 );
+```
 ## RESULT 
 <div align="justify">
 Thus the ER diagram was drawn and relational diagram, SQL DDL staements are generated using ERD plus tool.
