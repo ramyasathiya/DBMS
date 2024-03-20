@@ -10,10 +10,26 @@
 5. End the begin section.
 
 ### Program:
-
+DECLARE
+    
+    num1 NUMBER := 10;
+    num2 NUMBER := 5;
+    result_add NUMBER;
+    result_sub NUMBER;
+BEGIN
+   
+    result_add := num1 + num2;
+   
+    result_sub := num1 - num2;
+    
+    
+    DBMS_OUTPUT.PUT_LINE('Addition: ' || num1 || ' + ' || num2 || ' = ' || result_add);
+    DBMS_OUTPUT.PUT_LINE('Subtraction: ' || num1 || ' - ' || num2 || ' = ' || result_sub);
+END;
 
 ### Output:
 
+![Screenshot 2024-03-20 114540](https://github.com/ramyasathiya/DBMS/assets/119393543/4ec918c2-a2ad-4a18-a04e-ea25e42a27a6)
 
 ### Result:
 Thust the program was performed sucessfully.
