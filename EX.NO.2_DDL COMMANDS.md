@@ -48,7 +48,8 @@ add department char(80);
 
 ### OUTPUT:
 
-![Screenshot 2024-03-20 102844 dbms1](https://github.com/ramyasathiya/DBMS/assets/119393543/0e9b603f-8344-4de9-b738-863d88e8391e)
+
+![Screenshot 2024-03-20 103616 dbms 2](https://github.com/ramyasathiya/DBMS/assets/119393543/868abc1b-7b6a-45fd-94bc-f87ab7606454)
 
 
 ### 3) Rename the student table to mystudent
@@ -70,7 +71,8 @@ truncate table students
 
 ### OUTPUT:
 
-![Screenshot 2024-03-20 104326 dbms 3](https://github.com/ramyasathiya/DBMS/assets/119393543/ecc06f75-ad8f-4b4a-bd83-32b56fea0a92)
+
+![Screenshot 2024-03-20 103616  dbms 4](https://github.com/ramyasathiya/DBMS/assets/119393543/11cd46a6-de93-420f-98a2-3295747209a4)
 
 ### 5) Drop the mystudent table
  
