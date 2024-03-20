@@ -1,4 +1,4 @@
-# EXP NO 2: DATA DEFINITION LANGUGE COMMANDS 
+![Screenshot 2024-03-20 104326 dbms 3](https://github.com/ramyasathiya/DBMS/assets/119393543/86c05196-3016-4e58-9e0f-aac93bc60d82)# EXP NO 2: DATA DEFINITION LANGUGE COMMANDS 
 ### DATE
 ## AIM:
 To create a student database and execute DDL queries using SQL.
@@ -24,43 +24,64 @@ To create a student database and execute DDL queries using SQL.
 ### 1) Create a database studentdb
 
 ### SQL QUERY:
+```
+create table students(
+    registernumber integer,
+    name varchar(50),
+    age integer,
+    address varchar(60),
+    phonenumber integer
+    
+);
+```
 
 ### OUTPUT:
+![Screenshot 2024-03-20 102844 dbms1](https://github.com/ramyasathiya/DBMS/assets/119393543/6a5760b3-6309-4ebd-87d1-504d4f2aa620)
 
 ### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
 ### SQL QUERY: 
+```
+alter table students
+add department char(80);
+```
 
 
 ### OUTPUT:
+
+![Screenshot 2024-03-20 102844 dbms1](https://github.com/ramyasathiya/DBMS/assets/119393543/0e9b603f-8344-4de9-b738-863d88e8391e)
+
 
 ### 3) Alter the above student table by adding another attribute department
 
 ### SQL QUERY: 
+```
+alter table students rename to mystudent;
+```
 
 ### OUTPUT:
+![Screenshot 2024-03-20 103616 dbms 2](https://github.com/ramyasathiya/DBMS/assets/119393543/79b7eddb-6bab-4143-885e-13752fb00b30)
 
-### 4) Rename the student table to mystudent
+### 4) Delete the mystudent rows using truncate keyword
 
 ### SQL QUERY: 
-
-
-
-### OUTPUT:
-
-### 5) Delete the mystudent rows using truncate keyword
-
-### SQL QUERY: 
-
+```
+truncate table students
+```
 
 ### OUTPUT:
-### 4) Drop the mystudent table
+
+![Screenshot 2024-03-20 104326 dbms 3](https://github.com/ramyasathiya/DBMS/assets/119393543/ecc06f75-ad8f-4b4a-bd83-32b56fea0a92)
+
+### 5) Drop the mystudent table
  
 ### SQL QUERY: 
-
+```
+drop table students;
+```
 
 ### OUTPUT:
-
+![Screenshot 2024-03-20 104326 dbms 3](https://github.com/ramyasathiya/DBMS/assets/119393543/30d7c262-6b3f-41ab-b309-5a4760f8636c)
 
 
 
