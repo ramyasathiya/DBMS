@@ -21,7 +21,7 @@ To create a student database and execute DDL queries using SQL.
 5. RENAME: This is used to rename an object existing in the database.
 
 ## Query:
-### 1) Create a database studentdb
+### 1) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
 ### SQL QUERY:
 ```
@@ -38,8 +38,7 @@ create table students(
 ### OUTPUT:
 ![Screenshot 2024-03-20 102844 dbms1](https://github.com/ramyasathiya/DBMS/assets/119393543/6a5760b3-6309-4ebd-87d1-504d4f2aa620)
 
-### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
-
+### 2) Alter the above student table by adding another attribute department
 ### SQL QUERY: 
 ```
 alter table students
@@ -52,7 +51,7 @@ add department char(80);
 ![Screenshot 2024-03-20 102844 dbms1](https://github.com/ramyasathiya/DBMS/assets/119393543/0e9b603f-8344-4de9-b738-863d88e8391e)
 
 
-### 3) Alter the above student table by adding another attribute department
+### 3) Rename the student table to mystudent
 
 ### SQL QUERY: 
 ```
